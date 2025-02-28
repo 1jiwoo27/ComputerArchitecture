@@ -1,0 +1,67 @@
+Instructions which havent been added [For Task 3]:
+
+    sb 
+    sh 
+    sw 
+
+    lb 
+    lbu 
+    lh 
+    lhu 
+    lw  
+
+Other things to be implemented:
+
+    Memory of 1 MB
+    Acess the memory
+
+
+
+Instructions that have been added in Task 2:
+
+    auipc
+    beq 
+    bge 
+    bgeu 
+    blt 
+    bltu 
+    bne
+    jal
+    jalr
+
+
+
+
+
+Added in task 1:
+
+    Inmediate instructions (I-type)
+    addi
+    andi
+    ori
+    slli
+    slti
+    sltiu
+    srai and/or srli, treated in the same instruction (the inmediate value changes)
+    xori
+
+    Upper inmediate instructions (U-type)
+    lui
+
+    Store instructions (S-type)
+    [none]
+
+    Register instructions (R-type)
+    add
+    sub
+    and
+    or
+    sll
+    slt
+    sltu
+    sra
+    srl
+    xor
+
+    Other instructions:
+    ecall

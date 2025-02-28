@@ -1,0 +1,89 @@
+Instructions which havent been added [For Task 2]:
+
+    Inmediate instructions (I-type)
+    [none]
+
+    Upper inmediate instructions (U-type)
+    [none]
+
+    Store instructions (S-type)
+    [none]
+
+    Branch instructions (B-type)
+    [none]
+
+    Register instructions (R-type)
+    [none]
+
+    Jump instructions (J-type)
+    jal
+    jalr
+
+Other things to be implemented:
+
+    Program counter:
+     - select instruction in program counter
+     - update program counter after finishing an action
+     - update program counter when branching
+
+
+
+Instructions that have been added:
+
+    auipc
+    beq 
+    bge 
+    bgeu 
+    blt 
+    bltu 
+    bne
+
+
+Instructions that dont need to be added at this point in time:
+
+sb [NOT NECESSARY TASK 2]
+sd [NOT NECESSARY TASK 2]
+sh [NOT NECESSARY TASK 2]
+sw [NOT NECESSARY TASK 2]
+lb [NOT NECESSARY TASK 2]
+lbu [NOT NECESSARY TASK 2]
+ld [NOT NECESSARY TASK 2]
+lh [NOT NECESSARY TASK 2]
+lhu [NOT NECESSARY TASK 2]
+lw [NOT NECESSARY TASK 2]
+lwu [NOT NECESSARY TASK 2]
+
+
+
+Added in task 1:
+
+    Inmediate instructions (I-type)
+    addi
+    andi
+    ori
+    slli
+    slti
+    sltiu
+    srai and/or srli, treated in the same instruction (the inmediate value changes)
+    xori
+
+    Upper inmediate instructions (U-type)
+    lui
+
+    Store instructions (S-type)
+    [none]
+
+    Register instructions (R-type)
+    add
+    sub
+    and
+    or
+    sll
+    slt
+    sltu
+    sra
+    srl
+    xor
+
+    Other instructions:
+    ecall

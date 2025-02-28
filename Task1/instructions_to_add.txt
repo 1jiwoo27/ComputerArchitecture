@@ -1,0 +1,73 @@
+Instructions which havent been added [For Task 1]:
+
+    Inmediate instructions (I-type)
+    [none]
+
+    Upper inmediate instructions (U-type)
+    [none]
+
+    Store instructions (S-type)
+    [none]
+
+    Register instructions (R-type)
+    [none]
+
+
+
+Instructions that have been added:
+
+    Inmediate instructions (I-type)
+    addi
+    andi
+    ori
+    slli
+    slti
+    sltiu
+    srai and/or srli, treated in the same instruction (the inmediate value changes)
+    xori
+
+    Upper inmediate instructions (U-type)
+    lui
+
+    Store instructions (S-type)
+    [none]
+
+    Register instructions (R-type)
+    add
+    sub
+    and
+    or
+    sll
+    slt
+    sltu
+    sra
+    srl
+    xor
+
+    Other instructions:
+    ecall
+
+
+
+Instructions that dont need to be added at this point in time:
+
+auipc [NOT NECESSARY TASK 1]
+beq [NOT NECESSARY TASK 1]
+bge [NOT NECESSARY TASK 1]
+bgeu [NOT NECESSARY TASK 1]
+blt [NOT NECESSARY TASK 1]
+bltu [NOT NECESSARY TASK 1]
+bne [NOT NECESSARY TASK 1]
+sb [NOT NECESSARY TASK 1]
+sd [NOT NECESSARY TASK 1]
+sh [NOT NECESSARY TASK 1]
+jal [NOT NECESSARY TASK 1]
+jalr [NOT NECESSARY TASK 1]
+lb [NOT NECESSARY TASK 1]
+lbu [NOT NECESSARY TASK 1]
+ld [NOT NECESSARY TASK 1]
+lh [NOT NECESSARY TASK 1]
+lhu [NOT NECESSARY TASK 1]
+lw [NOT NECESSARY TASK 1]
+lwu [NOT NECESSARY TASK 1]
+sw [NOT NECESSARY TASK 1]
